@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "eta-rs232",
+		"version": "0.5.0",
+		"news": {
+			"0.5.0": {
+				"en": "add compact mode support",
+				"de": "add compact mode support"
+			},
+			"0.2.0": {
+				"en": "Added support for Admin v3",
+				"de": "Unterstützung für Admin v3 hinzugefügt",
+				"ru": "Добавлена ​​поддержка Admin v3",
+				"pt": "Adicionado suporte para Admin v3",
+				"nl": "Ondersteuning toegevoegd voor Admin v3",
+				"fr": "Ajout du support pour Admin v3",
+				"it": "Aggiunto supporto per Admin v3",
+				"es": "Se agregó soporte para Admin v3",
+				"pl": "Dodano obsługę administratora v3"
+			},
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "eta-rs232",
+		"titleLang": {
+			"en": "eta-rs232",
+			"de": "eta-rs232",
+			"ru": "ETA-rs232",
+			"pt": "eta-rs232",
+			"nl": "eta-RS232",
+			"fr": "eta-rs232",
+			"it": "eta-RS232",
+			"es": "eta-rs232",
+			"pl": "eta-rs232",
+			"zh-cn": "eta-rs232"
+		},
+		"desc": {
+			"en": "Connect ETA with rs232",
+			"de": "Verbinden Sie ETA mit rs232",
+			"ru": "Подключите ETA с RS232",
+			"pt": "Conectar ETA com rs232",
+			"nl": "Verbind ETA met RS232",
+			"fr": "Connecter ETA avec RS232",
+			"it": "Collega ETA con rs232",
+			"es": "Conecte ETA con rs232",
+			"pl": "Połącz ETA z RS232",
+			"zh-cn": "将ETA与rs232连接"
+		},
+		"authors": ["wuliwux <wuliwux@xcore.at>"],
+		"keywords": ["ETA SH20", "RS232", "Heating"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "eta-rs232.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/wuliwux/ioBroker.eta-rs232/master/admin/eta-rs232.png",
+		"readme": "https://github.com/wuliwux/ioBroker.eta-rs232/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "hardware",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"portId": "/dev/ttyAMA0",
+		"boudRate": 19200,
+		"dataBits": 8,
+		"stopBits": 1,
+		"parity": "PARITY_NONE",
+		"etaFurnaceType": 8
+	},
+	"objects": [],
+	"instanceObjects": []
+}
