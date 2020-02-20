@@ -1,0 +1,16 @@
+ $MonitorListeWeiter ="{MA";
+      
+    
+      	$MonitorListeWeiterBytes = chr(02) . chr(02) . chr(01) . chr(01); //Standard
+    
+		}
+		$MonitorListeEndZeichen = "}";
+      //Zusammensetzen
+		$Daten = $MonitorListeWeiter . $MonitorListeWeiterBytes . $MonitorListeEndZeichen;
+
+echo $Daten."<br/>";
+
+for($i = 0; $i < strlen($Daten); $i++)
+{
+   echo ord($Daten[$i])." ";
+}
