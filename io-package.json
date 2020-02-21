@@ -67,7 +67,7 @@
 		"readme": "https://github.com/wuliwux/ioBroker.eta-rs232/blob/master/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
-		"type": "hardware",
+		"type": "climate-control",
 		"compact": true,
 		"connectionType": "local",
 		"dataSource": "push",

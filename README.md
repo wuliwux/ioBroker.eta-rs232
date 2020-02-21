@@ -22,29 +22,6 @@ but WITHOUT ANY WARRANTY!!!
 
 This section is intended for the developer. It can be deleted later
 
-### Getting started
-
-You are almost done, only a few steps left:
-
-1. Create a new repository on GitHub with the name `ioBroker.eta-rs232`
-1. Initialize the current folder as a new git repository:
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit"
-    ```
-1. Link your local repository with the one on GitHub:
-
-    ```bash
-    git remote add origin https://github.com/wuliwux/ioBroker.eta-rs232
-    ```
-
-1. Push all files to the GitHub repo:
-    ```bash
-    git push origin master
-    ```
-1. Head over to [src/main.ts](src/main.ts) and start programming!
-
 ### Scripts in `package.json`
 
 Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
@@ -58,18 +35,6 @@ Several npm scripts are predefined for your convenience. You can run them using 
 | `test:integration`| Tests the adapter startup with an actual instance of ioBroker. |
 | `test` | Performs a minimal test run on package files and your tests. |
 | `lint` | Runs `ESLint` to check your code for formatting errors and potential bugs. |
-
-### Writing tests
-
-When done right, testing code is invaluable, because it gives you the
-confidence to change your code while knowing exactly if and when
-something breaks. A good read on the topic of test-driven development
-is https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92.
-Although writing tests before the code might seem strange at first, but it has very
-clear upsides.
-
-The template provides you with basic tests for the adapter startup and package files.
-It is recommended that you add your own tests into the mix.
 
 ### Publishing the adapter
 
