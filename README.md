@@ -18,10 +18,6 @@ Connect ETA with rs232
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY!!!
 
-## Developer manual
-
-This section is intended for the developer. It can be deleted later
-
 ### Scripts in `package.json`
 
 Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
@@ -65,11 +61,11 @@ For later updates, the above procedure is not necessary. Just do the following:
 
 #### 0.5.0 (2020-02-20)
 
-init + inclue compact mode!
+    (wuliwux) init + inclue compact mode!
 
 ### 0.0.1
 
--   (wuliwux) initial release
+    (wuliwux) initial release
 
 ## License
 
