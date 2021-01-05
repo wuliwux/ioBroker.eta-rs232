@@ -21,7 +21,7 @@
     "@iobroker/adapter-core": "^2.2.1",
     "rxjs": "^6.3.3",
     "serialport": "^8.0.7",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@iobroker/testing": "^2.0.2",
